@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Background image moved to CSS as requested. */
+    background-color: #f4f4f4;
+    background-image: url("https://images.pexels.com/photos/19153153/pexels-photo-19153153.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.buttons button {
+    width: 22%;
+    padding: 10px;
+    margin: 5px 1%;
+}
+
+@media (max-width: 600px) {
+    .calculator {
+        width: 90%;
+    }
+}
